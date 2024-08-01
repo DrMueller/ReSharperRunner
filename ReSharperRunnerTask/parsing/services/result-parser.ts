@@ -11,6 +11,7 @@ export class ResultParser {
         parsedData.runs.forEach((runData: any) => {
             runData.results.forEach((result: any) => {
                 tl.debug(JSON.stringify(result));
+                
                 const locations: ResultEntryLocation[] = [];
                 result.locations.forEach((location: any) => {
                     locations.push(new ResultEntryLocation(
