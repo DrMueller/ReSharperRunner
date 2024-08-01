@@ -6,12 +6,11 @@ import { EntryLevel } from "../models/entry-level";
 export class ResultParser {
     public parseData(jsonContent: string): ResultEntry[] {
         const parsedData = JSON.parse(jsonContent);
-        tl.debug(`jsonContent: ${jsonContent}`)
-
         const resultEntries: ResultEntry[] = [];
 
         parsedData.runs.forEach((runData: any) => {
             runData.results.forEach((result: any) => {
+                tl.debug(JSON.stringify(result));
                 const locations: ResultEntryLocation[] = [];
                 result.locations.forEach((location: any) => {
                     locations.push(new ResultEntryLocation(

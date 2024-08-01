@@ -11,6 +11,10 @@ async function run() {
     const thresholdForFailure = tl.getInput('thresholdForFailure', true);
     let additionalArguments = tl.getInput('additionalArguments', false);
 
+    // const solutionPath = '"C:\\MyGit\\Personal\\CertificatesRecognizer\\Mmu.CertificateRecognizer.sln"';
+    // const thresholdForFailure = 'warning';
+    // let additionalArguments = '';
+
     tl.debug(`solutionPath: ${solutionPath}`);
     tl.debug(`thresholdForFailure: ${thresholdForFailure}`);
     tl.debug(`additionalArguments: ${additionalArguments}`);
