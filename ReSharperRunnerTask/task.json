@@ -1,0 +1,57 @@
+{
+  "id": "5a9bebd0-4dd7-11ef-82ce-9148a869153d",
+  "name": "ReSharperRunnerTask",
+  "friendlyName": "ReSharperRunnerTask",
+  "description": "This task runs the ReSharper code analysis",
+  "author": "'Matthias Müller'",
+  "helpMarkDown": "This task runs the ReSharper code analysis",
+  "category": "Utility",
+  "visibility": [
+    "Build"
+  ],
+  "demands": [],
+  "version": {
+    "Major": "2",
+    "Minor": "0",
+    "Patch": "__BuildVersion__"
+  },
+  "minimumAgentVersion": "1.95.0",
+  "instanceNameFormat": "ReSharperRunnerTask",
+  "inputs": [
+    {
+      "name": "solutionPath",
+      "type": "filePath",
+      "label": "Path to the solution",
+      "defaultValue": "xx.sln",
+      "required": true,
+      "helpMarkDown": "Path to the solution."
+    },
+    {
+      "name": "thresholdForFailure",
+      "type": "pickList",
+      "label": "Treshhold (including the defined value) for failure",
+      "defaultValue": "Information",
+      "required": true,
+      "helpMarkDown": "Treshhold (including the defined value) for failure.",
+      "options": {
+        "information": "Information",
+        "warning": "Warning",
+        "error": "Error"
+      }
+    },
+    {
+      "name": "additionalArguments",
+      "type": "string",
+      "label": "Additional arguments",
+      "defaultValue": "/disable-settings-layers:SolutionPersonal",
+      "required": false,
+      "helpMarkDown": "Custom JB arguments."
+    }
+  ],
+  "execution": {
+    "Node": {
+      "target": "dist/index.js",
+      "argumentFormat": ""
+    }
+  }
+}

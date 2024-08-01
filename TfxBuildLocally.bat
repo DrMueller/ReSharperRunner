@@ -1,0 +1,1 @@
+tfx extension create --manifests vss-extension.json

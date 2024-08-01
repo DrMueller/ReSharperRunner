@@ -1,0 +1,51 @@
+{
+  "manifestVersion": 1,
+  "id": "ReSharperRunner",
+  "publisher": "DrMueller2",
+  "version": "1.0.__BuildVersion__",
+  "name": "ReSharper Runner",
+  "description": "Runs ReSharper scan and reports the results",
+  "public": true,
+  "icons": {
+    "default": "extension-icon.png"
+  },
+  "categories": ["Azure Pipelines"],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "README.md"
+    }
+  },
+  "contributions": [
+    {
+      "id": "ReSharperRunnerTask",
+      "type": "ms.vss-distributed-task.task",
+      "targets": ["ms.vss-distributed-task.tasks"],
+      "properties": {
+        "name": "ReSharperRunnerTask"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "ReSharperRunnerTask/node_modules"
+    },
+    {
+      "path": "ReSharperRunnerTask/task.json"
+    },
+    {
+      "path": "ReSharperRunnerTask/icon.png"
+    },
+    {
+      "path": "ReSharperRunnerTask/dist"
+    },
+    {
+      "path": "README.md",
+      "addressable": true
+    }
+  ]
+}

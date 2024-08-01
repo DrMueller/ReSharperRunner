@@ -1,0 +1,56 @@
+name: $(Rev:r) # build numbering format
+
+resources:
+  - repo: self
+
+jobs:
+  - job: "BuildAndPublishToMarketplace"
+    displayName: "Build and publish to Marketplace"
+    pool:
+      name: Azure Pipelines
+      vmImage: "windows-latest"
+    steps:
+      - task: Npm@1
+        displayName: "NPM CI"
+        inputs:
+          command: custom
+          verbose: false
+          customCommand: ci
+          workingDir: ReSharperRunnerTask
+      - task: Npm@1
+        displayName: 'Install TypeScript globally'
+        inputs:
+          command: custom
+          verbose: false
+          customCommand: 'install typescript -g'
+      - powershell: |
+          $filePath= Join-Path -Path $(Build.Repository.LocalPath) -ChildPath "vss-extension.json"
+          $environmentContent = Get-Content $filePath
+          $replaced = $environmentContent -replace '__BuildVersion__', '$(Build.BuildNumber)'
+          Set-Content -Path $filePath -value $replaced
+        displayName: "Update Version - VSS-Extension"
+
+      - powershell: |
+          $filePath= Join-Path -Path $(Build.Repository.LocalPath) -ChildPath "\ReSharperRunnerTask\task.json"
+          $environmentContent = Get-Content $filePath
+          $replaced = $environmentContent -replace '__BuildVersion__', '$(Build.BuildNumber)'
+          Set-Content -Path $filePath -value $replaced
+        displayName: "Update Version - Task"
+
+      - task: Npm@1
+        displayName: "Build"
+        inputs:
+          command: custom
+          verbose: false
+          customCommand: "run ci:build"
+          workingDir: ReSharperRunnerTask
+
+      - task: ms-devlabs.vsts-developer-tools-build-tasks.tfx-installer-build-task.TfxInstaller@3
+        displayName: "Use Node CLI for Azure DevOps (tfx-cli)"
+
+      - task: ms-devlabs.vsts-developer-tools-build-tasks.publish-extension-build-task.PublishAzureDevOpsExtension@3
+        displayName: "Publish Extension"
+        inputs:
+          connectedServiceName: 'Marketplace2'
+          updateTasksVersion: false
+          updateTasksId: true

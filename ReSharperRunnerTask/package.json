@@ -1,0 +1,28 @@
+{
+  "name": "resharperunnertask",
+  "description": "",
+  "main": "index.js",
+  "publisher": "DrMueller2",
+  "homepage": "https://github.com/DrMueller/ReSharperRunnerTask",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrMueller/ReSharperRunnerTask"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ci:build": "tsc",
+    "ci:unit-test": "npx jest"
+  },
+  "keywords": [],
+  "author": "Müller Matthias",
+  "license": "ISC",
+  "dependencies": {
+    "child-process-async": "^1.0.1",
+    "azure-pipelines-task-lib": "^4.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/q": "^1.5.8",
+    "typescript": "^5.5.4"
+  }
+}

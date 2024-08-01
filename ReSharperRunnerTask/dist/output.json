@@ -1,0 +1,4674 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.6.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": ".CSharpErrors",
+          "ruleIndex": 14,
+          "level": "error",
+          "message": {
+            "text": "Cannot resolve symbol 'DataActions'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/DataActions/Flaechen/FlaecheActionSelect.razor.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 82,
+                  "endLine": 27,
+                  "endColumn": 93,
+                  "charOffset": 980,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "F74C99348C0E6036BF71DA2403118208EEF332B37ECF443A11B21127921AE273"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": ".CSharpErrors",
+          "ruleIndex": 14,
+          "level": "error",
+          "message": {
+            "text": "Cannot resolve symbol 'DataActions'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/DataActions/Geodaten/GeodatenActionSelect.razor.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 83,
+                  "endLine": 27,
+                  "endColumn": 94,
+                  "charOffset": 983,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "1B44F78E2F2370781DE47DB095A40339A70011A18DA1A251C775B45ACF57EB7C"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": ".CSharpErrors",
+          "ruleIndex": 14,
+          "level": "error",
+          "message": {
+            "text": "The type 'modan.FK2.Presentation.Areas.ImportAssistant.Services.Implementation.DataActionsFactory' must be convertible to 'modan.FK2.Presentation.Areas.ImportAssistant.Services.IDataActionsFactory' in order to use it as parameter 'TConcrete' in the generic method 'ConstructorInstance<TConcrete,T> Lamar.ServiceRegistry.InstanceExpression<T>.Use<TConcrete>()'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Infrastructure/ServiceRegistryCollection.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 44,
+                  "endLine": 207,
+                  "endColumn": 62,
+                  "charOffset": 11672,
+                  "charLength": 18
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "3B41075138AB922649649683ED2C99FBC1AE2D0F1481A8077C0D8C6B47D91495"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": ".CSharpErrors",
+          "ruleIndex": 14,
+          "level": "error",
+          "message": {
+            "text": "The type arguments for method 'T Lamar.InstanceExtensions.Singleton<T>(this T)' cannot be inferred from the usage. Try specifying the type arguments explicitly."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Infrastructure/ServiceRegistryCollection.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 66,
+                  "endLine": 207,
+                  "endColumn": 75,
+                  "charOffset": 11694,
+                  "charLength": 9
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "3B41075138AB922649649683ED2C99FBC1AE2D0F1481A8077C0D8C6B47D91495"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "ArrangeObjectCreationWhenTypeEvident",
+          "ruleIndex": 0,
+          "level": "note",
+          "message": {
+            "text": "Redundant type specification"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/QueryParamBuilding/Implementation/StandaloneQueryParameterBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 70,
+                  "endLine": 7,
+                  "endColumn": 90,
+                  "charOffset": 312,
+                  "charLength": 20
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "8D6D310E7FD8984881234FC37138299522F90CE071E95CB5810017F3BC540590"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "ArrangeObjectCreationWhenTypeEvident",
+          "ruleIndex": 0,
+          "level": "note",
+          "message": {
+            "text": "Redundant type specification"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/RestCallBuilding/Implementation/RestHeadersBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 4
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 58,
+                  "endLine": 7,
+                  "endColumn": 74,
+                  "charOffset": 305,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "DF376C3F8FE1B68001E0B8B91123DED380B7832896716565F81EAD495737BE4E"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "AutoPropertyCanBeMadeGetOnly.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Auto-property can be made get-only"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/Administration/Accounting/Overview/Components/AccountAdminList.razor.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 5
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 58,
+                  "endLine": 42,
+                  "endColumn": 62,
+                  "charOffset": 1581,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "663D49230C524B198BFE47845AE8EB0EF17A870539B2A641A31C265B0D13B07E"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "AutoPropertyCanBeMadeGetOnly.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Auto-property can be made get-only"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/Administration/Accounting/SelfRegistration/Components/SelfRegistrationPage.razor.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 6
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 60,
+                  "endLine": 22,
+                  "endColumn": 64,
+                  "charOffset": 937,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "7B2419A24788CBF1F6D05EB7B1C3514C399117407EB89139A0D805D62F923CA9"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "AutoPropertyCanBeMadeGetOnly.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Auto-property can be made get-only"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Shared/Models/IstAktivToggleParameter.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 7
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 30,
+                  "endLine": 5,
+                  "endColumn": 34,
+                  "charOffset": 152,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B15458076B15856689FF53B0630DB468B4FC436BB1559F51DE36FC0353A077D3"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "AutoPropertyCanBeMadeGetOnly.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Auto-property can be made get-only"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Shared/Models/IstAktivToggleParameter.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 7
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 37,
+                  "endLine": 6,
+                  "endColumn": 41,
+                  "charOffset": 202,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "532BB8EF914C083772E04C291952A8FBA19FF0B88495B10687AF61215EC1A397"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 2,
+          "level": "note",
+          "message": {
+            "text": "Class 'BetriebCoreDataQueryService' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Data.Shell/Areas/Betriebe/Repositories/Servants/Implementation/BetriebCoreDataQueryService.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 8
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 20,
+                  "endLine": 9,
+                  "endColumn": 47,
+                  "charOffset": 320,
+                  "charLength": 27
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "7EC2DFB37654053486554747D79A2AB2F56CEF2D6C6B0FF88AE249ACBF8A894F"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 2,
+          "level": "note",
+          "message": {
+            "text": "Class 'ImportAssistantPage' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportAssistantPage.razor.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 9
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 26,
+                  "endLine": 3,
+                  "endColumn": 45,
+                  "charOffset": 95,
+                  "charLength": 19
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "635D860BC783B5CB8787AE3AC99943CF3684FACD170A576A2918CB26FF63F66A"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 2,
+          "level": "note",
+          "message": {
+            "text": "Class 'LoadCountriesQuery' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Application/NewAreas/Countries/UseCases/LoadCountries/LoadCountriesQuery.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 10
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 36,
+                  "charOffset": 203,
+                  "charLength": 18
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "DA96EBBFD62FF558444FEEC83A607B1D38271DEB3AC59A17B1C54C4E2CE19ED3"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 2,
+          "level": "note",
+          "message": {
+            "text": "Class 'LoadKulturanbauOverviewQuery' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Application/Areas/Pflanzenbau/Kulturanbau/UseCases/LoadKulturanbauOverview/LoadKulturanbauOverviewQuery.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 11
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 46,
+                  "charOffset": 322,
+                  "charLength": 28
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "C979D108F25EA16C00DEE514A2BB91CF914C9A2F5B6E90A6A41A3A2C23CDB964"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 2,
+          "level": "note",
+          "message": {
+            "text": "Class 'LoginPagePo' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Presentation.FunctionalTests/TestingInfrastructure/ComponentAbstractions/Objects/Areas/Benutzer/Login/LoginPagePo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 12
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 29,
+                  "charOffset": 477,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "ABE6A91AAEA3D6DEDE60662E037542DD57FD317BE7C1582435A8952A233BDDF0"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 2,
+          "level": "note",
+          "message": {
+            "text": "Class 'NewsController' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/Home/News/Controllers/Implementation/NewsController.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 13
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 20,
+                  "endLine": 9,
+                  "endColumn": 34,
+                  "charOffset": 353,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "521176BED5A34382E60B1C5B9A1555BD3E5E669F2C85BEF6A5BD0EB6D47E897B"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 2,
+          "level": "note",
+          "message": {
+            "text": "Class 'RestCallBuilderFactory' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/RestCallBuilding/Implementation/RestCallBuilderFactory.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 14
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 20,
+                  "endLine": 5,
+                  "endColumn": 42,
+                  "charOffset": 166,
+                  "charLength": 22
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "D8A23EF20C368C4EA00BFC57B0152C1688645DAFC4F0964FEEBD4E20316ECB30"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 2,
+          "level": "note",
+          "message": {
+            "text": "Class 'StandaloneQueryParameterBuilderFactory' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/QueryParamBuilding/Implementation/StandaloneQueryParameterBuilderFactory.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 15
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 20,
+                  "endLine": 3,
+                  "endColumn": 58,
+                  "charOffset": 109,
+                  "charLength": 38
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E467EDFFEC2EB5A08DB600D8E21BD6F5270CD5A501CF3C766904D1D4109B8334"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "ConvertConstructorToMemberInitializers",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Convert constructor into member initializers"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Data2/Areas/Accounting/Account.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 16
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 16,
+                  "endLine": 9,
+                  "endColumn": 23,
+                  "charOffset": 252,
+                  "charLength": 7
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "48FF8A3BF4F1AC850129C80811D78BEA56D2B8CED6D71324F89F2929AA5B6CC9"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "FieldCanBeMadeReadOnly.Global",
+          "ruleIndex": 4,
+          "level": "note",
+          "message": {
+            "text": "Field can be made readonly"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain2/Infrastructure/Codes/Models/LegalUnitAddressTypeCodes.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 17
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 43,
+                  "endLine": 8,
+                  "endColumn": 47,
+                  "charOffset": 261,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0180C38AA72F72DBC9C000E59A2178F9DB4A4ECF834AC4855CEFF1A50D14B899"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/Areas/Agrarkantonssysteme/AgrarkantonssystemeCommonRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 18
+                },
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 15,
+                  "endLine": 141,
+                  "endColumn": 18,
+                  "charOffset": 6644,
+                  "charLength": 3
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "ECDCF26CA02458EE153A6F3B65B1C090B2273D3AE3DAD6ACFE1AD4712D2CCC05"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/Areas/Auswertungen/AuswertungenCommonRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 19
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 16,
+                  "endLine": 54,
+                  "endColumn": 21,
+                  "charOffset": 2113,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "F1AA698134A6D00C66BD3560EEE3B001DA1B56228B80D873AA86D13268CFDB10"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/Areas/Benutzer/BenutzerMenu/Components/BenutzerMenuRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 20
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 14,
+                  "endLine": 14,
+                  "endColumn": 26,
+                  "charOffset": 545,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "3C186329EF3ECEE4564D05F9954C4FC7E96B2C4E5AE65C33466BC43DDC99867D"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/Areas/Benutzer/BenutzerMenu/Components/BenutzerMenuRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 20
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 14,
+                  "endLine": 17,
+                  "endColumn": 26,
+                  "charOffset": 626,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "4145BDD9BCBDAE4EB4D63228F70BEC8AC76B25654A0BDB79EA7DC5470FAB2015"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/Areas/Benutzer/Login/Components/LoginPageRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 21
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 15,
+                  "endLine": 123,
+                  "endColumn": 23,
+                  "charOffset": 5906,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "ECF52687EC601BA3144A6AF19FCDDAC9DD925DE29928A22A9739771D894F826A"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/Areas/Produkte/Duengemittel/DuengemittelCommonRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 22
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 14,
+                  "endLine": 44,
+                  "endColumn": 18,
+                  "charOffset": 1605,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "10BEEDFB0BFA6E946118E4F878D00E89F864C12CFD034DD8BD98EDADE9A5E656"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/Areas/Produkte/Duengemittel/DuengemittelCommonRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 22
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 14,
+                  "endLine": 47,
+                  "endColumn": 17,
+                  "charOffset": 1726,
+                  "charLength": 3
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "88E17A14DA7963949F732805EC25C3EE6F0A5EE6F1C59C6C1B72E0560EE68EEE"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/Areas/Produkte/Duengemittel/DuengemittelCommonRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 22
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 14,
+                  "endLine": 50,
+                  "endColumn": 16,
+                  "charOffset": 1822,
+                  "charLength": 2
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "C02A6C7C44E4FF380E35BC46AD7C173484C9D1DFFAC06B01A7B50E9B0E8498AF"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/PresentationCommonRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 23
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 15,
+                  "endLine": 147,
+                  "endColumn": 20,
+                  "charOffset": 6611,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FBE97DC3E3BC7A2BC2D2D432659D110EC26E9924F1E50069060FD42EC8AEC51D"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/PresentationCommonRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 23
+                },
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 15,
+                  "endLine": 156,
+                  "endColumn": 21,
+                  "charOffset": 6883,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "580EC1BA913486668090905F86205E87015969CBFA3625D89D01E2BA2430A5DB"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/PresentationCommonRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 23
+                },
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 15,
+                  "endLine": 189,
+                  "endColumn": 26,
+                  "charOffset": 7917,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "7B9369FA75EE60E09BEDD79F92CA39098B32F3223290ED6FE6B22873EDFF0EF9"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/PresentationCommonRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 23
+                },
+                "region": {
+                  "startLine": 309,
+                  "startColumn": 15,
+                  "endLine": 309,
+                  "endColumn": 24,
+                  "charOffset": 11815,
+                  "charLength": 9
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "73A65D811E21B29558DEEAD34B3A30088E189B932D20669969E5CE984FB289CB"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/PresentationCommonRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 23
+                },
+                "region": {
+                  "startLine": 312,
+                  "startColumn": 15,
+                  "endLine": 312,
+                  "endColumn": 29,
+                  "charOffset": 11904,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "427C659484817B7ED84BE8BB111682C6E9845B5255AC7E89202BD193144BD171"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/PresentationCommonRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 23
+                },
+                "region": {
+                  "startLine": 408,
+                  "startColumn": 15,
+                  "endLine": 408,
+                  "endColumn": 18,
+                  "charOffset": 15118,
+                  "charLength": 3
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "EE3EE29199D46543A8CB59DA9BCD8B943A4EA9CBE376D920643A10BE56A667DD"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "OverriddenWithSameValue",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Resource is overridden with identical value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Assets/Presentation/Shell/Layouts/AppFooterRes.fr.resx",
+                  "uriBaseId": "solutionDir",
+                  "index": 24
+                },
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 15,
+                  "endLine": 150,
+                  "endColumn": 25,
+                  "charOffset": 7350,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "1A7E2CF99D2444AF9DA02C22296128053B1681C4522E57C7C79E4435E818308D"
+          },
+          "properties": {
+            "tags": ["Resource File",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "RedundantStringInterpolation",
+          "ruleIndex": 6,
+          "level": "note",
+          "message": {
+            "text": "Redundant string interpolation"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Reporting/Reports/Betriebsdaten/Betriebsdaten.cshtml",
+                  "uriBaseId": "solutionDir",
+                  "index": 25
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 30,
+                  "endLine": 9,
+                  "endColumn": 31,
+                  "charOffset": 331,
+                  "charLength": 1
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "1F1887E32E2F128E8A334042C63240C10A8B22128B0C9C8E1B6D01DB8EC8DCA8"
+          },
+          "properties": {
+            "tags": ["C# HTML",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "RedundantStringInterpolation",
+          "ruleIndex": 6,
+          "level": "note",
+          "message": {
+            "text": "Redundant string interpolation"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Reporting/Reports/Header/Header.cshtml",
+                  "uriBaseId": "solutionDir",
+                  "index": 26
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 30,
+                  "endLine": 8,
+                  "endColumn": 31,
+                  "charOffset": 444,
+                  "charLength": 1
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "D768D3ADE01B9549EF8D35B3CB3E24E7039D2DC89AB9D10D4C3EC378D62B052C"
+          },
+          "properties": {
+            "tags": ["C# HTML",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "RedundantStringInterpolation",
+          "ruleIndex": 6,
+          "level": "note",
+          "message": {
+            "text": "Redundant string interpolation"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Reporting/Reports/MaschinenListe/MaschinenListe.cshtml",
+                  "uriBaseId": "solutionDir",
+                  "index": 27
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 30,
+                  "endLine": 10,
+                  "endColumn": 31,
+                  "charOffset": 333,
+                  "charLength": 1
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "508736D9786CDDE9E0DA34255DB2944D515F3628EF2637D4C6BAD7BA4EC3F20D"
+          },
+          "properties": {
+            "tags": ["C# HTML",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "RedundantStringInterpolation",
+          "ruleIndex": 6,
+          "level": "note",
+          "message": {
+            "text": "Redundant string interpolation"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Reporting/Reports/TaetigkeitList/TaetigkeitList.cshtml",
+                  "uriBaseId": "solutionDir",
+                  "index": 28
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 30,
+                  "endLine": 11,
+                  "endColumn": 31,
+                  "charOffset": 378,
+                  "charLength": 1
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "508736D9786CDDE9E0DA34255DB2944D515F3628EF2637D4C6BAD7BA4EC3F20D"
+          },
+          "properties": {
+            "tags": ["C# HTML",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "RedundantUsingDirective",
+          "ruleIndex": 7,
+          "level": "warning",
+          "message": {
+            "text": "Using directive is not required by the code and can be safely removed"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/FinalResult/ImportRowFinalResult.razor.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 29
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 23,
+                  "charOffset": 50,
+                  "charLength": 22
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "500CA89E154EDAADA4E9239F8740989C17CEB8210DA5B00AA5A2E0E71B933C68"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "RedundantUsingDirective",
+          "ruleIndex": 7,
+          "level": "warning",
+          "message": {
+            "text": "Using directive is not required by the code and can be safely removed"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/ImportRow.razor.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 30
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 29,
+                  "charOffset": 0,
+                  "charLength": 28
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "60C929ED8F16260CD0673C5A0E7C7108AE79D81006683CF3AFA0AD7744FB83E6"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "RedundantUsingDirective",
+          "ruleIndex": 7,
+          "level": "warning",
+          "message": {
+            "text": "Using directive is not required by the code and can be safely removed"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/KartePreviews/KartePreview.razor",
+                  "uriBaseId": "solutionDir",
+                  "index": 31
+                },
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 2,
+                  "endLine": 2,
+                  "endColumn": 61,
+                  "charOffset": 60,
+                  "charLength": 59
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "761E5353B10A224EAD9E980459327B0E522CFB4571F44DA165CBBF01CE3F3C75"
+          },
+          "properties": {
+            "tags": ["Razor Component",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "RedundantUsingDirective",
+          "ruleIndex": 7,
+          "level": "warning",
+          "message": {
+            "text": "Using directive is not required by the code and can be safely removed"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/KartePreviews/KartePreview.razor.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 32
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 1,
+                  "endLine": 6,
+                  "endColumn": 54,
+                  "charOffset": 225,
+                  "charLength": 53
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2A003164DE75648EA3E027C4B260134D83396841341312570A8FE11C42291E61"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "TypeParameterCanBeVariant",
+          "ruleIndex": 8,
+          "level": "note",
+          "message": {
+            "text": "The type parameter 'T' could be declared as covariant"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain/Infrastructure/Data/ITrackedEntity.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 33
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 37,
+                  "endLine": 5,
+                  "endColumn": 38,
+                  "charOffset": 119,
+                  "charLength": 1
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B1FAAA8FE1481E0EC0053DBA3DB03CA1FEFE2D34798A603C3E4A28BBE2D80E91"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Enum member 'MainAddress' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Data2/Areas/Farms/LocalUnits/LocalUnitAddressType.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 34
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 9,
+                  "endLine": 5,
+                  "endColumn": 20,
+                  "charOffset": 106,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0DB36119EE749E374723B26620C2539010951F883D036577E89817C8B410E9BA"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Enum member 'None' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/Models/RestCallMehodType.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 35
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 9,
+                  "endLine": 5,
+                  "endColumn": 13,
+                  "charOffset": 114,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "816B6DE07246DA8B81B0C4C38EC2C0BBA03913138017808106791895E728D7AB"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'AddRangeAsync' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Data.Shell/DbContexts/Contexts/DbSetProxy.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 36
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 27,
+                  "endLine": 13,
+                  "endColumn": 40,
+                  "charOffset": 361,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2F2DA67BB87D73883F590400BADB54875A2B5FF17015A465B22DFFFB0E308FCB"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'AsNoTracking' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Data.Shell2/DbContexts/Contexts/IDbSetProxy.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 37
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 29,
+                  "endLine": 8,
+                  "endColumn": 41,
+                  "charOffset": 207,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "04B1D10DEFFE28FA096A9F69A74CC51DD492EFD168BD3CF1F849FDB6E52A8705"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'Build' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/QueryParamBuilding/IStandaloneQueryParameterBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 38
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 25,
+                  "endLine": 7,
+                  "endColumn": 30,
+                  "charOffset": 220,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "7257F1EEF76A2A4D036C5BD313964C1A1888B189755C7ABC9FA3E867648DE092"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'BuildHeaders' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/RestCallBuilding/IRestHeadersBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 39
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 26,
+                  "endLine": 5,
+                  "endColumn": 38,
+                  "charOffset": 147,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "00197D0E42A7626B6F6E2B7D1D7AA4A9B9E267C43538FAA078D42FEA6DDEF803"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'BuildIpsBetriebsleiter' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Testing.Common/Fixtures/SecurityPrincipalBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 40
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 42,
+                  "endLine": 58,
+                  "endColumn": 64,
+                  "charOffset": 2256,
+                  "charLength": 22
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "8EDC3DE07FC562317C2B190DF21F7E170F5BF48AC3C636110AF993C1925B0472"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'BuildNonIpsBetriebsleiter' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Testing.Common/Fixtures/SecurityPrincipalBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 40
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 42,
+                  "endLine": 106,
+                  "endColumn": 67,
+                  "charOffset": 4109,
+                  "charLength": 25
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "EE83551F48A8B7AE067B912428C707EC62624E9A518B57F9AC76543D719040D0"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'Create' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain2/Areas/Accounting/Services/ISaltPasswordFactory.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 41
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 22,
+                  "endLine": 7,
+                  "endColumn": 28,
+                  "charOffset": 181,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "31AC74CBA2FD7C64BF23DAC2F1720FE7F4CF984B42826069E6FD2E871EBFA053"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'CreateGenericSuccess' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/Models/RestCallResult.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 42
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 38,
+                  "endLine": 41,
+                  "endColumn": 58,
+                  "charOffset": 1389,
+                  "charLength": 20
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6B70F96BEB61432193CD7FB2845D3055CF9D931E492C51F28B917B4A74BE2FAE"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'CreatePageObjectAsync' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Presentation.FunctionalTests/TestingInfrastructure/ComponentAbstractions/ObjectsBase/PageObjectBase.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 43
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 33,
+                  "endLine": 55,
+                  "endColumn": 54,
+                  "charOffset": 1635,
+                  "charLength": 21
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "5151FF0F08C524B300586E6C23A56E8F2BC96E82AF1562974D581158256CC7C1"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'IsEqualTo' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Common/Maths/DoubleExtensions.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 44
+                },
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 28,
+                  "endLine": 61,
+                  "endColumn": 37,
+                  "charOffset": 1947,
+                  "charLength": 9
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "EF681E334F9EA46D509A52092A9BA77A912D447A6DB61A89AFBD586F4DEAC6F0"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'Load' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Testing.Common/Data/EntityLoader2/IEntityLoader2.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 45
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 27,
+                  "charOffset": 178,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E4EC847D2B9EADE6AA7D3B6B6855ECF42974252864BD9BF712F8C563D39C45B0"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'LoadAreaAsync' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain/Areas/Pflanzenbau/Anbaukarte/QueryServices/IAreaQueryService.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 46
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 26,
+                  "endLine": 8,
+                  "endColumn": 39,
+                  "charOffset": 308,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B1FAEB952E1A930245A6D5C529A85AEBBAE3A68FC3DD5F926FE6CD1E531054E7"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'LoadByRefIdAsync' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain/Areas/Shared/Parameters/QueryServices/IParameterQueryService.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 47
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 25,
+                  "endLine": 8,
+                  "endColumn": 41,
+                  "charOffset": 236,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "959C3F8C81CE3F79EFF507EAB3E6A38F631F260315FD736CA5B85F7F7E4AABF4"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'PersistAsync' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Testing.Common/Data/EntityPersister2/IEntityPersister2.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 48
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 14,
+                  "endLine": 7,
+                  "endColumn": 26,
+                  "charOffset": 175,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "65C44AC41D3938D4D6BD7884AD72A297F0632FA90519D9D6480638B0F924DA69"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'RegisterCallback' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Presentation.FunctionalTests/TestingInfrastructure/Integrations/Email/EmailSenderMock.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 49
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 21,
+                  "endLine": 12,
+                  "endColumn": 37,
+                  "charOffset": 441,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "444BD937997FCDB88F7FB7D09F0BECBCC25EC26C6D1AA027CF06555290FC211D"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'RemoveRange' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Data.Shell/DbContexts/Contexts/DbSetProxy.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 36
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 21,
+                  "endLine": 33,
+                  "endColumn": 32,
+                  "charOffset": 830,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "AB138C2B364C08BD5AD558B03F705D71A2FDD4ADFF5746084E863436B628A913"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'Render' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/QualityTests/TestingInfrastructure/BlazorMetadata/Models/Components/BlazorComponent.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 50
+                },
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 47,
+                  "endLine": 116,
+                  "endColumn": 53,
+                  "charOffset": 4040,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "3C2E6180184BDFEE429E7DF103BD552191CAD556165042927C932E3C0840804B"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'SendAsync' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/RestProxies/Services/IRestProxy.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 51
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 30,
+                  "endLine": 9,
+                  "endColumn": 39,
+                  "charOffset": 273,
+                  "charLength": 9
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "15B3BD5018E1426D34E65AE30070A3DB3550DE6E292A07645DE2B393607E7902"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'StartBuilding' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/QueryParamBuilding/IStandaloneQueryParameterBuilderFactory.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 52
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 42,
+                  "endLine": 5,
+                  "endColumn": 55,
+                  "charOffset": 185,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "DF916C1CD71EFD1DF21E75531D0D4CCF6EEF7918565CBFCD38A15FC7927F70EB"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'Update' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Data.Shell/DbContexts/Contexts/DbSetProxy.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 36
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 21,
+                  "endLine": 38,
+                  "endColumn": 27,
+                  "charOffset": 968,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FD83E77557F7CF1BE0D2A1980CD2BB9CA3CF10862FB0BF367E35BD4D3E929D0D"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'ValidatePassword' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain2/Areas/Accounting/Services/IPasswordValidator.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 53
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 14,
+                  "endLine": 7,
+                  "endColumn": 30,
+                  "charOffset": 206,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "D07C042A043019BC5A62F669488A53AC98F2796EF9A2E6A68B7C0B9FD48C9F07"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'WithHeader' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/RestCallBuilding/IRestHeadersBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 39
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 29,
+                  "endLine": 7,
+                  "endColumn": 39,
+                  "charOffset": 194,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "7E8C01ED1B7459147E7806489454068F71CBEA0BAD338C23F2EEDB8DEF91746B"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'WithHeaders' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/RestCallBuilding/IRestCallBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 54
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 29,
+                  "endLine": 14,
+                  "endColumn": 40,
+                  "charOffset": 499,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "74B8D46F921B3E13C01A0F75D8553F8AEC0FA52806EE31467EAA137876DB3537"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'WithId' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Testing.Common/Data/EntityBuilders/Builders/BetriebAdresseBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 55
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 38,
+                  "endLine": 22,
+                  "endColumn": 44,
+                  "charOffset": 633,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A0A1C05EB11B4D36B789394D494B5F4725B88EC1B24A6C6E990F5353532A1FF3"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'WithLegalUnit' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Testing.Common/Data/EntityBuilders/NewBuilders/FarmBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 56
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 28,
+                  "endLine": 15,
+                  "endColumn": 41,
+                  "charOffset": 405,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "12C3C1AB31900E413F8476D4FCE6A885E1B72D095E2E76AA3F6CAEB680662344"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'WithNumber' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Testing.Common/Data/EntityBuilders/Builders/AdresseBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 57
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 31,
+                  "endLine": 16,
+                  "endColumn": 41,
+                  "charOffset": 463,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "1D16207B777EA646F33ACD1B34416D5A60BE738A5219FEF5B0AEA87F1909171C"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'WithQueryParameter' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Integration.Rest/Infrastructure/QueryParamBuilding/IStandaloneQueryParameterBuilder.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 38
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 42,
+                  "endLine": 9,
+                  "endColumn": 60,
+                  "charOffset": 273,
+                  "charLength": 18
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E24BEBF3323DF467CF6BCF56D0639DB898EA4CD6E78FFEB22526CB7CA2F9661C"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Property 'AccountId' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/Administration/Accounting/Edit/ViewModels/AccountEditViewModel.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 58
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 21,
+                  "endLine": 10,
+                  "endColumn": 30,
+                  "charOffset": 277,
+                  "charLength": 9
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "536A84D672AE0AEA6EF6B99ED7A06F0BC18EFC1E599D71C87AF20E36ED4A32C2"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Property 'AccountId' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/Farms/FarmAccounts/ViewModels/FarmAccountEditViewModel.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 59
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 20,
+                  "endLine": 29,
+                  "endColumn": 29,
+                  "charOffset": 1827,
+                  "charLength": 9
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "F1D299AD0F85F097C4157E77A84A5D52FD2F6495F77B70672F0F3DFE79376CC3"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Property 'BenutzerGruppeRefId' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Presentation/Areas/Administration/Accounting/Edit/ViewModels/AccountEditViewModel.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 58
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 20,
+                  "endLine": 32,
+                  "endColumn": 39,
+                  "charOffset": 1757,
+                  "charLength": 19
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FB35A13A1C36C5E2D66B3825D032C20035F063C8042E1DE66CED3AD862801947"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Property 'CanManageUsers' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain2/Areas/AccessControl/Models/ISecurityPrincipal2.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 60
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 21,
+                  "endLine": 7,
+                  "endColumn": 35,
+                  "charOffset": 224,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "7C1A498C5A7B3C2943224ACC53B1A0E88A62AB597FF007BE610B5A27035C3BD4"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Property 'DependenciesHack' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/QualityTests/TestingInfrastructure/Fixtures/Assemblies/AssemblyProvider.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 61
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 38,
+                  "endLine": 43,
+                  "endColumn": 54,
+                  "charOffset": 2605,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "EB55EB7FB6089B875F10D55CA115BD3F6D3FE6DF674CF9F365A6E19EE39B5CE9"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Property 'Einkauf' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain/Infrastructure/RefIds/Models/PflanzenmittelmutationtypRefIds.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 62
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 49,
+                  "endLine": 8,
+                  "endColumn": 56,
+                  "charOffset": 256,
+                  "charLength": 7
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B7FB84973C32EA6BC75C7E3F0C5AC835997B557049594179AADF7EE1F3FE9951"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Property 'Saldo' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain/Infrastructure/RefIds/Models/PflanzenmittelmutationtypRefIds.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 62
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 49,
+                  "endLine": 9,
+                  "endColumn": 54,
+                  "charOffset": 332,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "EEB8EBCDEF6237FE3FAD1D68F131DABEBC30331202BCBFE98B63138D842A1937"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Property 'Titel' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Application/Areas/Benutzer/UseCases/Datenschutz/LoadDatenschutzTexts/Response/DatenschutzTexts.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 63
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 28,
+                  "charOffset": 238,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FC6D74C77A3352E2D188E978C372881A35B5A731CACF8ADACA2C3E6102DFAF35"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Property 'Verlust' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain/Infrastructure/RefIds/Models/PflanzenmittelmutationtypRefIds.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 62
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 49,
+                  "endLine": 11,
+                  "endColumn": 56,
+                  "charOffset": 484,
+                  "charLength": 7
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E53BA5995BC2BD0B531351FDA39CF578958A4A6EA6167B64B1853F20FBA6DA63"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMemberInSuper.Global",
+          "ruleIndex": 10,
+          "level": "note",
+          "message": {
+            "text": "Only implementations of accessor 'DeactivateAllowed.get' are used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain/Areas/AccessControl/Models/IUpdateDeleteDeactivateAllowed.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 64
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 41,
+                  "endLine": 5,
+                  "endColumn": 44,
+                  "charOffset": 158,
+                  "charLength": 3
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0FF4F194C12EFB67CD9669F3F0E8E7414EECCA9DDC5B50EC2B8DB731B5E6F6CC"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMemberInSuper.Global",
+          "ruleIndex": 10,
+          "level": "note",
+          "message": {
+            "text": "Only implementations of accessor 'DeleteAllowed.get' are used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain/Areas/AccessControl/Models/IUpdateDeleteDeactivateAllowed.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 64
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 37,
+                  "endLine": 6,
+                  "endColumn": 40,
+                  "charOffset": 207,
+                  "charLength": 3
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "AF9A660B79349E33C0BAD3A44D42AFE4276D235E8EDEBF276F90A647034C8811"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMemberInSuper.Global",
+          "ruleIndex": 10,
+          "level": "note",
+          "message": {
+            "text": "Only implementations of accessor 'UpdateAllowed.get' are used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain/Areas/AccessControl/Models/IUpdateDeleteDeactivateAllowed.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 64
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 37,
+                  "endLine": 7,
+                  "endColumn": 40,
+                  "charOffset": 256,
+                  "charLength": 3
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "63A6A52B685A58FEFA629B03D28168285496F9B70452773D27EB4FEBE7B5D505"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMemberInSuper.Global",
+          "ruleIndex": 10,
+          "level": "note",
+          "message": {
+            "text": "Only implementations of method 'PersistAsync' are used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Testing.Common/Data/EntityPersister2/IEntityPersister2.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 48
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 26,
+                  "charOffset": 231,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FDC1EBA276CE4B997B3167FC1D9E77C8DAC1F9A11AE194A691D7954FF94A0CD8"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMemberInSuper.Global",
+          "ruleIndex": 10,
+          "level": "note",
+          "message": {
+            "text": "Only implementations of property 'DeactivateAllowed' are used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain2/Areas/AccessControl/Models/IUpdateDeleteDeactivateAllowed.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 65
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 21,
+                  "endLine": 5,
+                  "endColumn": 38,
+                  "charOffset": 139,
+                  "charLength": 17
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0FF4F194C12EFB67CD9669F3F0E8E7414EECCA9DDC5B50EC2B8DB731B5E6F6CC"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMemberInSuper.Global",
+          "ruleIndex": 10,
+          "level": "note",
+          "message": {
+            "text": "Only implementations of property 'DeleteAllowed' are used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain2/Areas/AccessControl/Models/IUpdateDeleteDeactivateAllowed.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 65
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 21,
+                  "endLine": 6,
+                  "endColumn": 34,
+                  "charOffset": 192,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "AF9A660B79349E33C0BAD3A44D42AFE4276D235E8EDEBF276F90A647034C8811"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMemberInSuper.Global",
+          "ruleIndex": 10,
+          "level": "note",
+          "message": {
+            "text": "Only implementations of property 'UpdateAllowed' are used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Application/Domain2/Areas/AccessControl/Models/IUpdateDeleteDeactivateAllowed.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 65
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 21,
+                  "endLine": 7,
+                  "endColumn": 34,
+                  "charOffset": 241,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "63A6A52B685A58FEFA629B03D28168285496F9B70452773D27EB4FEBE7B5D505"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMethodReturnValue.Global",
+          "ruleIndex": 11,
+          "level": "note",
+          "message": {
+            "text": "Method 'RegisterDbSetMock' return value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Data.Shell2.UnitTests/TestingInfrastructure/QueryServices/QueryServiceMock.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 66
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 16,
+                  "endLine": 14,
+                  "endColumn": 33,
+                  "charOffset": 459,
+                  "charLength": 17
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "DAD6D220880EAF869DB4F81AC29F27BC266E613692608337FB67A70506A6F98C"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UseCollectionCountProperty",
+          "ruleIndex": 12,
+          "level": "note",
+          "message": {
+            "text": "Replace 'Enumerable.Count()' invocation with collection count property access"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Data.Shell.UnitTests/Areas/Betriebe/Repositories/BetriebRepositoryUnitTests.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 67
+                },
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 71,
+                  "endLine": 132,
+                  "endColumn": 73,
+                  "charOffset": 5475,
+                  "charLength": 2
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FF06255013D1B537CBE7FE7F5F52DC1ABD62295A93FE5ADF3E42BEDEC8F7E4A9"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "UseCollectionCountProperty",
+          "ruleIndex": 12,
+          "level": "note",
+          "message": {
+            "text": "Replace 'Enumerable.Count()' invocation with collection count property access"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Domain.UnitTests/Areas/Pflanzenbau/Kulturanbau/Services/FruchtfolgeFactoryUnitTests.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 68
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 56,
+                  "endLine": 55,
+                  "endColumn": 58,
+                  "charOffset": 2339,
+                  "charLength": 2
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A9B126B50300854529B0C016DE37DB69642529CC76D3DF7626E86EADFF468460"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        },
+        {
+          "ruleId": "VirtualMemberNeverOverridden.Global",
+          "ruleIndex": 13,
+          "level": "note",
+          "message": {
+            "text": "Virtual method 'EnsureNavigationEntities' is never overridden"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sources/Testing/Testing.Common/Data/EntityBuilders/NewBuilders/Base/EntityBuilderBase2.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 69
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 19,
+                  "endLine": 27,
+                  "endColumn": 26,
+                  "charOffset": 747,
+                  "charLength": 7
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "5ABE51CB80DC600BAE55FC893101B0A71F3709A5A66A02A3037F04A2C29F26D8"
+          },
+          "properties": {
+            "tags": ["C#",".NET 8.0"]
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "InspectCode",
+          "organization": "JetBrains, Inc",
+          "fullName": "JetBrains Inspect Code 2024.1.4",
+          "semanticVersion": "241.0.20240623.154825",
+          "informationUri": "http://www.jetbrains.com/resharper/features/command-line.html",
+          "rules": [
+            {
+              "id": "ArrangeObjectCreationWhenTypeEvident",
+              "fullDescription": {
+                "text": "Add or remove explicit type specification in 'new' expression when type is evident from the usage"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/resharperplatform/help?Keyword=ArrangeObjectCreationWhenTypeEvident"
+              },
+              "shortDescription": {
+                "text": "Use preferred style of 'new' expression when created type is evident"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/resharperplatform/help?Keyword=ArrangeObjectCreationWhenTypeEvident",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeStyleIssues",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "AutoPropertyCanBeMadeGetOnly.Global",
+              "fullDescription": {
+                "text": "Auto-property has no write usages after initialization and can be made get-only"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/resharperplatform/help?Keyword=AutoPropertyCanBeMadeGetOnly.Global"
+              },
+              "shortDescription": {
+                "text": "Auto-property can be made get-only: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/resharperplatform/help?Keyword=AutoPropertyCanBeMadeGetOnly.Global",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.BestPractice",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.BestPractice",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ClassNeverInstantiated.Global",
+              "fullDescription": {
+                "text": "Non-static class is never instantiated"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/resharperplatform/help?Keyword=ClassNeverInstantiated.Global"
+              },
+              "shortDescription": {
+                "text": "Class is never instantiated: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/resharperplatform/help?Keyword=ClassNeverInstantiated.Global",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ConvertConstructorToMemberInitializers",
+              "fullDescription": {
+                "text": "Replace constructor with members initialized inline"
+              },
+              "shortDescription": {
+                "text": "Convert constructor into member initializers"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.LanguageUsage",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "FieldCanBeMadeReadOnly.Global",
+              "fullDescription": {
+                "text": "Field has no write usages after initialization and can be made readonly"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/resharperplatform/help?Keyword=FieldCanBeMadeReadOnly.Global"
+              },
+              "shortDescription": {
+                "text": "Field can be made readonly: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/resharperplatform/help?Keyword=FieldCanBeMadeReadOnly.Global",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.BestPractice",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.BestPractice",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "OverriddenWithSameValue",
+              "fullDescription": {
+                "text": "Base resource item and the current item have the same value"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/resharperplatform/help?Keyword=OverriddenWithSameValue"
+              },
+              "shortDescription": {
+                "text": "Resource is overridden with identical value"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/resharperplatform/help?Keyword=OverriddenWithSameValue",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "RESX.CodeRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "RedundantStringInterpolation",
+              "fullDescription": {
+                "text": "String interpolation expression without arguments is redundant"
+              },
+              "shortDescription": {
+                "text": "Redundant string interpolation"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "RedundantUsingDirective",
+              "fullDescription": {
+                "text": "Using directive is not required by the code and can be safely removed"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/resharperplatform/help?Keyword=RedundantUsingDirective"
+              },
+              "shortDescription": {
+                "text": "Redundant using directive"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://www.jetbrains.com/resharperplatform/help?Keyword=RedundantUsingDirective",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASPX.CodeRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "TypeParameterCanBeVariant",
+              "fullDescription": {
+                "text": "Type parameter could be declared as covariant or contravariant"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.BestPractice",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedMember.Global",
+              "fullDescription": {
+                "text": "Type member is never used"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/resharperplatform/help?Keyword=UnusedMember.Global"
+              },
+              "shortDescription": {
+                "text": "Type member is never used: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/resharperplatform/help?Keyword=UnusedMember.Global",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "XAML.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASXX.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASPX.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedMemberInSuper.Global",
+              "fullDescription": {
+                "text": "Type member is never used with base type or interface, it is always accessed via more specific type"
+              },
+              "shortDescription": {
+                "text": "Type member is never accessed via base type: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedMethodReturnValue.Global",
+              "fullDescription": {
+                "text": "Method return value is never used"
+              },
+              "shortDescription": {
+                "text": "Method return value is never used: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UseCollectionCountProperty",
+              "fullDescription": {
+                "text": "Usage of 'Enumerable.Count()' method can be replaced with direct collection count property access"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/resharperplatform/help?Keyword=UseCollectionCountProperty"
+              },
+              "shortDescription": {
+                "text": "Use collection's count property"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/resharperplatform/help?Keyword=UseCollectionCountProperty",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VirtualMemberNeverOverridden.Global",
+              "fullDescription": {
+                "text": "Virtual (overridable) member is never overridden and so the 'virtual' ('overridable') modifier can be removed"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/resharperplatform/help?Keyword=VirtualMemberNeverOverridden.Global"
+              },
+              "shortDescription": {
+                "text": "Virtual (overridable) member is never overridden: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/resharperplatform/help?Keyword=VirtualMemberNeverOverridden.Global",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": ".CSharpErrors"
+            }
+          ],
+          "taxa": [
+            {
+              "id": ".CSharpErrors",
+              "name": "C# Compiler Errors",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ASPX",
+              "name": "Aspx"
+            },
+            {
+              "id": "ASPX.CodeRedundancy",
+              "name": "Redundancies in Code",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASPX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ASPX.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASPX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ASXX",
+              "name": "HttpHandler or WebService"
+            },
+            {
+              "id": "ASXX.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASXX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP",
+              "name": "C#"
+            },
+            {
+              "id": "CSHARP.BestPractice",
+              "name": "Common Practices and Code Improvements",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.CodeRedundancy",
+              "name": "Redundancies in Code",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.CodeSmell",
+              "name": "Potential Code Quality Issues",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.CodeStyleIssues",
+              "name": "Syntax Style",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.LanguageUsage",
+              "name": "Language Usage Opportunities",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "RESX",
+              "name": "ResX"
+            },
+            {
+              "id": "RESX.CodeRedundancy",
+              "name": "Redundancies in Code",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "RESX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC",
+              "name": "VB.NET"
+            },
+            {
+              "id": "VBASIC.BestPractice",
+              "name": "Common Practices and Code Improvements",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC.CodeSmell",
+              "name": "Potential Code Quality Issues",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "XAML",
+              "name": "XAML"
+            },
+            {
+              "id": "XAML.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "XAML",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "versionControlProvenance": [
+        {
+          "repositoryUri": "https://github.com/modanch/Feldkalender2.git",
+          "revisionId": "3709e13e88e0dd17e465e57f5096a5a000b3e9f8",
+          "branch": "develop",
+          "mappedTo": {
+            "uriBaseId": "solutionDir"
+          }
+        }
+      ],
+      "originalUriBaseIds": {
+        "solutionDir": {
+          "uri": "file:///C:/MyGit/Kunden/Modan/Feldkalender2/",
+          "description": {
+            "text": "Solution Directory"
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/DataActions/Flaechen/FlaecheActionSelect.razor.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "3DC75DE6F13DAC0F0E0E65E4BDE87CBE",
+            "sha-1": "3314371B3D17BD940F1ADE77360E34DF03DFDC3C",
+            "sha-256": "C993F198E884BE84C4BC4426B302AC30592A9BD6AB3CD7F0B286E33B9428D2D4"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/DataActions/Geodaten/GeodatenActionSelect.razor.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "6EC16798E2B49EFD27599A08F62F445D",
+            "sha-1": "B4D9B6F28C2BF9F76F64CC7217E26091A5A93697",
+            "sha-256": "090F9DEBBC9355018EFB58ECABC42C74054ED48F48C13EBAD34CAC8D70AFC03A"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Infrastructure/ServiceRegistryCollection.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "C4832827CAFFA4AB18E56B420723450C",
+            "sha-1": "A242B1F3B7111956F3DE0565A0541AA1FC331AE9",
+            "sha-256": "8C220DB29CFD7F9552FBAAA7B2544BD578BC7205980692299852321A1DB5E631"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Rest/Infrastructure/QueryParamBuilding/Implementation/StandaloneQueryParameterBuilder.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "75A9A59765875515BB904BCB933F67D2",
+            "sha-1": "4144B3FEECC31D860BDA699F64010432B6D1D507",
+            "sha-256": "1CBBA6974DB5756C3FBF75C59CDBDE45396E23108A1674799CA9D60123397D60"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Rest/Infrastructure/RestCallBuilding/Implementation/RestHeadersBuilder.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "BAD6AE7FC388E5484D0D67ABEBE06424",
+            "sha-1": "470B8BB916CD6F590F36B4381660AC0A04724F37",
+            "sha-256": "C846232DF2470EED2519699B87312766E88A2C63DE58F99132D896665229A2B3"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/Administration/Accounting/Overview/Components/AccountAdminList.razor.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "CDDB865C76B3C714D866737EEB5C26B2",
+            "sha-1": "4C04EA45706F267DF1CABC73C73B66D8C03C4C6D",
+            "sha-256": "75BEB721EDB23B7C68BC6782EC617491264B950FB0B3E2AD0183DB1FDE0F8193"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/Administration/Accounting/SelfRegistration/Components/SelfRegistrationPage.razor.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "FB1987F8286609F43C05C5A0781335AC",
+            "sha-1": "AE69CCA1A871A647481C5F796A37EA39EC090CC0",
+            "sha-256": "6E934D6E9428B0E5CFB954BACA15BA5AE85F2BC40AD595E2FED083B349D4AE2A"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Shared/Models/IstAktivToggleParameter.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "DFA08B9046FC308FB2E0039838BFA0DF",
+            "sha-1": "9312A2730404443E985D11AC82364E216B5E176E",
+            "sha-256": "7B879FA612F3AFBAFE68FD01C3F5EDFBB7EF007B927A6EF0F40AB46FBB277A5E"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Data.Shell/Areas/Betriebe/Repositories/Servants/Implementation/BetriebCoreDataQueryService.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "51ACA7E43AFA21B100647C705039E3E8",
+            "sha-1": "71E3F06829329E9E651ABD6F455B99B8DFF42DA3",
+            "sha-256": "0817D30FC052A24D3A0A0D0352656DE41E23D52BF8ABCB8513B53B28AD967CD3"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportAssistantPage.razor.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "9046D48DE7D543CD4894AB087B7ADD78",
+            "sha-1": "DDFC20309943C60E249DFE57A6DE0058CA895747",
+            "sha-256": "C8DF0A6C369784A97A07755E8E1A40FBC949C9EF082E4EDA67B083EA06C5A3E2"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Application/NewAreas/Countries/UseCases/LoadCountries/LoadCountriesQuery.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "EECE3D802DBE6D33675B453604568B40",
+            "sha-1": "DD9D92BBD93389E9E9E4CE37D154C5C0ACE2901E",
+            "sha-256": "206F2E6B3AFB079CCCF643DABB5FF03F9E237782042D7DBD8C90A449BA57756C"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Application/Areas/Pflanzenbau/Kulturanbau/UseCases/LoadKulturanbauOverview/LoadKulturanbauOverviewQuery.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "91103EFF8C55210B51E9428851014493",
+            "sha-1": "A87D01C27EE793D295B4DB5AD117557070D4564A",
+            "sha-256": "FD24104022C0DC302A7B58E8A79761EADA70CD02FE68D53FC67D2C90EA738120"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Presentation.FunctionalTests/TestingInfrastructure/ComponentAbstractions/Objects/Areas/Benutzer/Login/LoginPagePo.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "91B2070C1F08EC10FF7C1FE026182C18",
+            "sha-1": "8ED8B4965A0A1A5BC094368B75ADF5338093972C",
+            "sha-256": "F9F02C66B8A94D4C69D7030C1C61EC5669CCB6E3EA152B1C1D2A0A5D0C257A62"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/Home/News/Controllers/Implementation/NewsController.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "4BFCE58F55900F2ACA61F19134105023",
+            "sha-1": "71274ABCA4E9F473D3EDB3889B7FABC6F5FA14EB",
+            "sha-256": "680BFC34E7DBA9007EFDE3D1E0AEA08FB4A4337D71459B31D1D8756FFED3B9A6"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Rest/Infrastructure/RestCallBuilding/Implementation/RestCallBuilderFactory.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "134E220BE7DCF35D6EF65C11F6E6C9A7",
+            "sha-1": "DF996F34CBE9CB1AA34157D050E9B0290EF15624",
+            "sha-256": "45A0A1FEDF507C50BFB8928D5ADA249901B477BEB0B824818354E09E9FE47DBF"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Rest/Infrastructure/QueryParamBuilding/Implementation/StandaloneQueryParameterBuilderFactory.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "4C691096096668C41A368D0DC2BF44DB",
+            "sha-1": "7F60EE4868D66E2C5D6354A53AEBAC0C4FE4E641",
+            "sha-256": "C00C42DB705716BE2B18D7C3364AF8A33EDC950FD259BF9A0C12827C9BEF2105"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Data2/Areas/Accounting/Account.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "6D8222AF43BFE0F498D23843D86C4E50",
+            "sha-1": "856814F16CA2FC65D0352006BB518FE3C97AC219",
+            "sha-256": "FD1F84ED8636B0F3DB2C04ADA52C2D03227A28979DCEA08DDC64D329498A7AE5"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Domain2/Infrastructure/Codes/Models/LegalUnitAddressTypeCodes.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "F6C1AC4A757C1727C7CC31ED406CE6AB",
+            "sha-1": "C557D19CFE36FB32C7935C875141262E08AFCF48",
+            "sha-256": "A839FB3831D538C76CD071FF2ADA76608AD89865CC21FD9AD3B3E07078378FA7"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Assets/Presentation/Areas/Agrarkantonssysteme/AgrarkantonssystemeCommonRes.fr.resx",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "F6983E11352899DC31F92F47AE14220C",
+            "sha-1": "D451A2A69CB60F690C25EC1437E3F70EF036AF72",
+            "sha-256": "25AB3CBC0CF1A378C8B91F3478DC0192AC66E6F1A147AF0317B7AC3A17F09808"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Assets/Presentation/Areas/Auswertungen/AuswertungenCommonRes.fr.resx",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "ECF1CFE33607F5B162F19D416CCC893E",
+            "sha-1": "3DCB226FF4DE103D24FF9AE5B547289579049A39",
+            "sha-256": "167930981A7C1B4F9108FCDD6CAAF1C3A6E0472EBA9F2211AD2C42BD7AC715FF"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Assets/Presentation/Areas/Benutzer/BenutzerMenu/Components/BenutzerMenuRes.fr.resx",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "0882637CC8A3E47917D53345256A8B1C",
+            "sha-1": "8D2F48F5887C4016CE7E8BE2FA2DC2640FECAE98",
+            "sha-256": "99DDF1A2940300068F3F14C08518EDA9E7E3CF0067855C72B5DFF10F15F75E81"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Assets/Presentation/Areas/Benutzer/Login/Components/LoginPageRes.fr.resx",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "95FDF19D7554E3DE520B75FE81D2E48B",
+            "sha-1": "6CAECBF8D5A51E2A66F68F4DDDA09B3DCBFC7C0A",
+            "sha-256": "C822F22C5848D36B9341FF92FAC273EBCD3DDADA3A7DA253FC192E2607C8812A"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Assets/Presentation/Areas/Produkte/Duengemittel/DuengemittelCommonRes.fr.resx",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "CC2FDE2DCA492439D8B97547677BDA3E",
+            "sha-1": "44A74D2A0C99354F26F539D6F2D2A7B982C5C50A",
+            "sha-256": "BAABA4E4CFEBBE7B6EE05233E7B8852FFD9F5D403FCB5DA4D3F30743B4F9F767"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Assets/Presentation/PresentationCommonRes.fr.resx",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "37CD95EACA5A1B78B89B4AE8EDC27083",
+            "sha-1": "28B8CB1F0FD47B857707D00476AE2805710F1B02",
+            "sha-256": "FEDF9B6C0E6D15BEB72D1127803FDFBC35FB0A29780FFC2E1F226E45E177E1B7"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Assets/Presentation/Shell/Layouts/AppFooterRes.fr.resx",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "4C87B6283148BF0969A01A1B23EAC486",
+            "sha-1": "C66318342A9D6037A748377474D5AA988B12FAE2",
+            "sha-256": "AEF90BADBC39B3B19C49786EEF1842BF509DFB4B7B82C863F1B3EF6E72A61C77"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Reporting/Reports/Betriebsdaten/Betriebsdaten.cshtml",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "AEBF716E007E64FC861F8DE4FA652DE5",
+            "sha-1": "68E2BC768417F5861CF278E7BB88FB6344F66B59",
+            "sha-256": "082F6C73B50B7469639E1DF8A34F05669CF29BFCFDF89559C04DB83D21B00F7E"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Reporting/Reports/Header/Header.cshtml",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "60AFAD8BD45008583EAB2FAD37514FFA",
+            "sha-1": "4C716586117613A18C7A32B2FE35B461A7E4DD57",
+            "sha-256": "159DDABA8866E068015BEFFBADE142EA12607C3A55F74062913663E6D70A2212"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Reporting/Reports/MaschinenListe/MaschinenListe.cshtml",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "89A923A47F71B36B48C797B60E494A92",
+            "sha-1": "8BC6DA8EAD11DB5265794D1270706EA7A7DBC07F",
+            "sha-256": "00F009D430F092F6C077F12CBE62C53F7698F03A14C1A37A8D208F217E437084"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Reporting/Reports/TaetigkeitList/TaetigkeitList.cshtml",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "AFDD18336B204BA53CF58774066AC5F4",
+            "sha-1": "72AB7E61035B411F97F1D98172238A3EC24485D8",
+            "sha-256": "F6691B45B5B8F6CF096C1EA3FF8438C2FB854A71D7465DE91B160C88173CB052"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/FinalResult/ImportRowFinalResult.razor.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "3A4267603B1A4B80E2AC4FFFB710A0DA",
+            "sha-1": "61CC7C42A6966E13FE209DCE102D1AD8FF2DE85A",
+            "sha-256": "746630AF44EEE30F4026F1EBBCCDB32DCE4D300D47BAFA4AA8F48A79D98C5152"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/ImportRow.razor.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "50425ED8D34396FB987F7D69B2086A5D",
+            "sha-1": "177901F419523ECDD14DD7CF8A5D6000A58C0993",
+            "sha-256": "9A94266C2DF9C828872483D0B984FE09B31C77F2C7958C57B42BAE43D45AE580"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/KartePreviews/KartePreview.razor",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "7455AA2B430DE68CE8959E42F29982BA",
+            "sha-1": "56163D1B87B1742BD4879774DCEB830680AC4171",
+            "sha-256": "DABC0CBF5A8EC29912A02BE20AAF4D8F99C3E39373D1DAB493F8264ADBA2B5FA"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/ImportAssistant/Components/ImportMapping/ImportRows/KartePreviews/KartePreview.razor.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "ACB48257FD5F0FF4C05EFE85680B41DA",
+            "sha-1": "21D474BAA0FBB9AEA5E34F827A88F5477B947739",
+            "sha-256": "BD4C1FCE294483FDAA6028921225C5820E0DFCF693AF0D010B8B6BFCF92C2AFB"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Domain/Infrastructure/Data/ITrackedEntity.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "6CD3A181057533E5DAF45D3598E018B6",
+            "sha-1": "EF93999095D0F1A15CF9F8F68A9FECB5CA4F8332",
+            "sha-256": "542063A0BD6393CF7BBD4473AD0CAFBE94015C12A8A4F76BE439A675591B7383"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Data2/Areas/Farms/LocalUnits/LocalUnitAddressType.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "D7775100DDCB0FE6F1A61B751ACB72C6",
+            "sha-1": "5C2860CA3987C1C16865538F19A4DF6A979FC9CA",
+            "sha-256": "2F9040C31239B17868A216602F47A12BDE7EACF04DB01BA1A512C64F212F6D00"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Rest/Infrastructure/Models/RestCallMehodType.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "A3B9CC59FD4DF0393410BBF6D171C4A7",
+            "sha-1": "28A744B1A004AA615B7717F3C3BC02CCA837EFAE",
+            "sha-256": "CAC5601EC0ED9A75E0C90DBE750DDA64CC9D7481C9F52BCBAA050CC27ADD5626"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Data.Shell/DbContexts/Contexts/DbSetProxy.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "8C5297355572B2DEC2DE829FD3C7BE19",
+            "sha-1": "DDDE8F91143B3B5CB4A19F0C6851AE6B5FA3013C",
+            "sha-256": "9E9E0ADBF14AEE62D6047615A09B4C6F5F3A95E9885B16E935DCFC55F24779C6"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Data.Shell2/DbContexts/Contexts/IDbSetProxy.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "589873A4B83535EB49608A181612CE94",
+            "sha-1": "BC6DC99F69B9375A1D277613E43ABC7E25878060",
+            "sha-256": "90DF6E0992FE85B9E5A8C4E02998E79A1EA39D66BEA34E2D29854B124BEA3EBF"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Rest/Infrastructure/QueryParamBuilding/IStandaloneQueryParameterBuilder.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "B34E433F04070FE1E9577487EE0D97BD",
+            "sha-1": "4C8B5B87354E5E3958349110B66D610242EBAB5B",
+            "sha-256": "CBE5B90B5070B073F4219D96EA4228253F64578C645A0CA2ECDD8C89F4144F1A"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Rest/Infrastructure/RestCallBuilding/IRestHeadersBuilder.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "A1AFAA4B19F9E2A77A8A2C6107F1A8F4",
+            "sha-1": "C257464CA82CF47F235ED3A565F5337ADF939465",
+            "sha-256": "51645266F5DA353BDED316C02C004B518934271C3766F51B2DA21956877FA274"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Testing.Common/Fixtures/SecurityPrincipalBuilder.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "1C5ACF94357F848BCE934DF144A0F01A",
+            "sha-1": "387F9F91D1EAC1010249D4D3D1176D1416BC54C8",
+            "sha-256": "21ADDCF5FB6EE4054F419B495804126B25A5213F2B147949172268D8D9B00F29"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Domain2/Areas/Accounting/Services/ISaltPasswordFactory.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "E3393F0C14521186409BD38B2BEEDF46",
+            "sha-1": "96296AFB0ADB6EE585F85F9F9359E3E4520FFFFE",
+            "sha-256": "F57FED31F36095B9450F7D39EBC80A3D1FA7714222C0B5097A87CA887EF8F40F"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Rest/Infrastructure/Models/RestCallResult.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "18CD68216EC5AED987D5932C896B0DC3",
+            "sha-1": "25E0E12C19B650B13E60911C2DBCE73E64988BB0",
+            "sha-256": "95D68F4AA95D26AA6BF7ECBB87C7E3D7143A68B64ED5DE649BAAEB98E9CC8FBE"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Presentation.FunctionalTests/TestingInfrastructure/ComponentAbstractions/ObjectsBase/PageObjectBase.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "DC763BFD1B505BDF1D1ABD3F816DC483",
+            "sha-1": "7CE3D63A5A46426A35E08E4E25E11C04F6ADA0AB",
+            "sha-256": "00AC8B028750A9AD79DD92D2E6BA59C1FFF88FFA1995EB3A2D14D9D85FAA28C3"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Common/Maths/DoubleExtensions.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "A8B2F218D4A358C2E4FACA0DECCA120E",
+            "sha-1": "B25145C181AA6E6086191B0CB6BAE591D022726E",
+            "sha-256": "0B573549961526E0B86ABEF99804EF882B148B09F6E56FE2AC4150490E224FE9"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Testing.Common/Data/EntityLoader2/IEntityLoader2.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "EEC0AC42EDDC8892FF9AC3B7D0A9C2BD",
+            "sha-1": "CE7B15C3005D3294FC973C4522E8169138D60D56",
+            "sha-256": "1ABDA4C4FBC471B27859DB00B589BC11C5D859260A9F9ACBF539E947D19D2612"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Domain/Areas/Pflanzenbau/Anbaukarte/QueryServices/IAreaQueryService.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "C2EF4414B3B9505D4AA9F56F526E35B4",
+            "sha-1": "23EBEA6396511560743576F9FE05B2B7FA3F2528",
+            "sha-256": "B924E37A59EF8EA5FC7CD6222510549B9E544AC595132F8EA2FD386E7BF65D0C"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Domain/Areas/Shared/Parameters/QueryServices/IParameterQueryService.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "BB421A80313EC3838161FF7778D6D787",
+            "sha-1": "6D6B733C5D816F7C22589F0643B70282CBF8F9B2",
+            "sha-256": "4BDE143C14C0722854026033C0ED85117B624C27F75F0D0CAF30896AC8382391"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Testing.Common/Data/EntityPersister2/IEntityPersister2.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "56FBAF28522362FB3A0406E2836FC4E7",
+            "sha-1": "8E3B4993A6D25450F86B2DB2DD7A4F812B286A76",
+            "sha-256": "87B451460D3FE67281DB30AA4874C5C5783A3AA2FAB3945FB6986C01E77FD450"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Presentation.FunctionalTests/TestingInfrastructure/Integrations/Email/EmailSenderMock.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "5722F19812AB64C1F258C44C482F6D4F",
+            "sha-1": "CE3E596286D67E001DD1743DFA18E55FDA9C9014",
+            "sha-256": "C8947A2AFEBE03299D7C16374DB28ECA64D089E1C2B1041DE126859017D4B776"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/QualityTests/TestingInfrastructure/BlazorMetadata/Models/Components/BlazorComponent.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "25833E7642E631F2EA6DA4DDCB09D1EF",
+            "sha-1": "1D660244358F580AF4493C00E6AC294DC4C92DEE",
+            "sha-256": "394126FED56F9E92A5B328EE8C789C86C46CFC8FBF7E49DF96EA86E79727AE74"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Rest/Infrastructure/RestProxies/Services/IRestProxy.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "D90C2D572923B5E651A8CDCEAC707E06",
+            "sha-1": "FBB8ED4357989FA15F55729E1E1B3045EFAC1411",
+            "sha-256": "B51A7F8E6BCDABD852E056B03DFED99E68A240516F6B650FA9E2DBCDEDBD6C17"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Rest/Infrastructure/QueryParamBuilding/IStandaloneQueryParameterBuilderFactory.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "1D2BB28D547CBA775B3E1E7768AB849D",
+            "sha-1": "AFDC7EBB325B740BE437E15631044EBBF0E313D9",
+            "sha-256": "C4EE922F75D4B6C02C6E225CAC0D190EED2EC21CA97EF1E6B8511497DF5D6015"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Domain2/Areas/Accounting/Services/IPasswordValidator.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "AE682A713344846FB9AFFED82D02D73D",
+            "sha-1": "234DFCEDF649E0673A176F53990FEEDD53E07535",
+            "sha-256": "10190B82E85B697CA038F4DF6AF0AB95119226EA5C80EA30C9A5CA627154BC91"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Integration.Rest/Infrastructure/RestCallBuilding/IRestCallBuilder.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "787B6475938A803C344E10C093B32655",
+            "sha-1": "5A4EC155A8B6017E260F7FE36AD9439B03033F37",
+            "sha-256": "75F837E7D1DD4A7140F932E4A4385097206BFC7979BF2B92C0EA323D371F7EC4"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Testing.Common/Data/EntityBuilders/Builders/BetriebAdresseBuilder.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "F607F1E604CE4D96EA3498CB3BD33F14",
+            "sha-1": "5863D8CC03A959FC86CE644B11D74C9F5CF3D65B",
+            "sha-256": "320385F76EEB15711ACFB93F36EFAC0B682C2CAF2C1E23FDA1FCC077C750B765"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Testing.Common/Data/EntityBuilders/NewBuilders/FarmBuilder.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "B2F5B481894DD40B0907F37A26A33B56",
+            "sha-1": "6DFD98FC38AD9CB2B4A390D4925831DE38AB5CBF",
+            "sha-256": "68B02091AE3FDBEEA65F136AC510380FD307CBF444E8C242CA0E096082A90E91"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Testing.Common/Data/EntityBuilders/Builders/AdresseBuilder.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "0146AEFAD3FBFE6F4F2B01F3019819F8",
+            "sha-1": "5B9FF5F04145A4C85CA7F72A5672C5CB47BD4DDF",
+            "sha-256": "7E996DD41E054CF642F98E48630EA7264EDE3D85A8DF4EDBC9CA0668EB5891D1"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/Administration/Accounting/Edit/ViewModels/AccountEditViewModel.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "266A9C5A77A74F5AC480D99A580E1CB9",
+            "sha-1": "8F63D108C4E408DB95AB437D101FEC05D0D92AE3",
+            "sha-256": "8FA19D9E52F2247D4AE473A888C820DC000185B8883E8F270BC6DAA7EC387EED"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Presentation/Areas/Farms/FarmAccounts/ViewModels/FarmAccountEditViewModel.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "AD77DE191A629F44CCD31CAEA53A4DCF",
+            "sha-1": "8408B79734E39AB7D1FAB3F7559D3D87A5D516B7",
+            "sha-256": "02752618793B7A0080D36A89F4E2FD3A3B6EF186E0C5F706986FBB6EF480366B"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Domain2/Areas/AccessControl/Models/ISecurityPrincipal2.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "0B63C33FF4472676F8079071734824C2",
+            "sha-1": "E285C51126C48046529B1EA82EBECD7943B027FD",
+            "sha-256": "F3F88C9293BA7BCD03DC3C45A3461170F56705C7DCC61903CB571080242CDC13"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/QualityTests/TestingInfrastructure/Fixtures/Assemblies/AssemblyProvider.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "35D5C30559BBED84FF398511295DCDA0",
+            "sha-1": "799D8AF94F8C0DD536979B263EC0D05F14ABB41B",
+            "sha-256": "F8CB650830C2042A0838CEDC43C2B6CF85A639B00839B17C84E216157E33AF4C"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Domain/Infrastructure/RefIds/Models/PflanzenmittelmutationtypRefIds.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "206CA6527818A33B9F6DFE6F14168874",
+            "sha-1": "07C84A50DC4DDDB9F7A4113563984184CD7954A9",
+            "sha-256": "F42F144FD2DB43AC5D1CD1E3EF20E366592F612C9A5B1DD635A37A6DE030A6F0"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Application/Areas/Benutzer/UseCases/Datenschutz/LoadDatenschutzTexts/Response/DatenschutzTexts.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "F97AEBDC46FF0DFBF6C69671F12B2DC0",
+            "sha-1": "285211A53145523EA94A0CB02BF805C48411BE66",
+            "sha-256": "E4F424714DEE7FC754238743EF6DB8D1F8B80063376260D3E9386A99417B1D91"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Domain/Areas/AccessControl/Models/IUpdateDeleteDeactivateAllowed.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "539C4E33D2A852F93BAEDC1E4F8C206F",
+            "sha-1": "69DC663932155E08AA80C7AA5F99DBE4230C5791",
+            "sha-256": "E6FF7ED7E0E74A80E5437AFBEB7C57E739D6E4E0C3E45ECD5C4D00AF3BC86866"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Application/Domain2/Areas/AccessControl/Models/IUpdateDeleteDeactivateAllowed.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "DD339C0760B2B10E9507912B7ACAAC87",
+            "sha-1": "B0997ECCA59F1A3DFAF80834DC29259B833BDA3C",
+            "sha-256": "99E1BFAC845FDF4792011DEB02D68CBDCEC48C582C5B35D744BF345D425BA8AB"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Data.Shell2.UnitTests/TestingInfrastructure/QueryServices/QueryServiceMock.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "5AFAFE10DBE58D48818DF65444E2DD93",
+            "sha-1": "87748FBCE73FA2D438C970ACA548FFDB177A17E4",
+            "sha-256": "588D5241E3FF80080FA66E742482A2B26F64C253ABA1E204AFF91BDBB1AFF689"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Data.Shell.UnitTests/Areas/Betriebe/Repositories/BetriebRepositoryUnitTests.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "CD31ECF875BB92A77A94CF662FC73EBD",
+            "sha-1": "8DD8D0E97943D94DD62EA54DD901AA76810F131B",
+            "sha-256": "AB269ED85A32AC332539A21AA2F060CCE231AB1D2E53347FEA69D551D540099A"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Domain.UnitTests/Areas/Pflanzenbau/Kulturanbau/Services/FruchtfolgeFactoryUnitTests.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "F7066BE034A7CAEB851B4D7300C752E4",
+            "sha-1": "D4D5C579A00FEAA23BBC1B1B824C35BB726FBD2F",
+            "sha-256": "6AADFA66955C4EDA89FFE976B6D933E466F7D3D24A8EE68650EDA7DE6EA54D97"
+          }
+        },
+        {
+          "location": {
+            "uri": "Sources/Testing/Testing.Common/Data/EntityBuilders/NewBuilders/Base/EntityBuilderBase2.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "F889A14FACE33259C9D278A8AC4754DB",
+            "sha-1": "A8A34BD3F39759F394B923A5E7C6C07835056B79",
+            "sha-256": "AB16910A35655DBC5ABD231ED5BDB14AC46827B210FF7C76CA36D16E2C7F90C7"
+          }
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}
