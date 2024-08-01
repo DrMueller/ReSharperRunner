@@ -6,6 +6,8 @@ import { EntryLevel } from "../models/entry-level";
 export class ResultParser {
     public parseData(jsonContent: string): ResultEntry[] {
         const parsedData = JSON.parse(jsonContent);
+        tl.debug(`parsedData: ${parsedData}`)
+
         const resultEntries: ResultEntry[] = [];
 
         parsedData.runs.forEach((runData: any) => {
