@@ -32,7 +32,8 @@ export class ResultParser {
     }
 
     private parseLine(physicalLocation: any): number | null {
-        if (physicalLocation.regon && physicalLocation.region.startLine) {
+        tl.debug(JSON.stringify(physicalLocation));
+        if (physicalLocation.region && physicalLocation.region.startLine) {
             return physicalLocation.region.startLine;
         }
 

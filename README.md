@@ -4,7 +4,10 @@
 
 Runs the [ReSharper InspectCode command line tool](https://www.jetbrains.com/help/resharper/InspectCode.html) and analyses its result.
 
-ATTENTION: This task expects the command line tool to be installed, please make sure this is the case.
+## Restrictions
+
+- The task expects the command line tool to be installed, please make sure this is the case.
+- The task expects the newly added output format SARIF, therefore this only works with ReSharper 2024 and forward
 
 ## Configuration
 
@@ -12,7 +15,7 @@ ATTENTION: This task expects the command line tool to be installed, please make 
 
 Path to the solution to analyze.
 
-Defines wheter the scan also checks the transitive dependencies.
+Defines whether the scan also checks the transitive dependencies.
 
 ### Threshold for failure
 
@@ -20,7 +23,7 @@ Defines the threshold, when the task should fail.
 
 ### Additional arguments
 
-Additional arguments, passed to the Resharper CLT.
+Additional arguments, passed to ReSharper CLT.
 
 ## Contributing
 
