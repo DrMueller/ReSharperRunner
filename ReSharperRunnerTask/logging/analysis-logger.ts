@@ -43,7 +43,7 @@ export class AnalysisLogger {
         if (foundEntries.length > 0) {
             foundEntries.forEach(entry => {
                 entry.locations.forEach(location => {
-                    const message = `Type:${logLevel};file:${location.uri};line:${location.uri};message:${entry.message}`;
+                    const message = `Type:${logLevel};file:${location.uri};line:${location.startLineDescription};message:${entry.message}`;
 
                     if (logLevel == EntryLevel.Information) {
                         console.info(message);

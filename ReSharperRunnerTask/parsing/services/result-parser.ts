@@ -11,12 +11,12 @@ export class ResultParser {
         parsedData.runs.forEach((runData: any) => {
             runData.results.forEach((result: any) => {
                 tl.debug(JSON.stringify(result));
-                
+
                 const locations: ResultEntryLocation[] = [];
                 result.locations.forEach((location: any) => {
                     locations.push(new ResultEntryLocation(
                         location.physicalLocation.artifactLocation.uri,
-                        location.physicalLocation.region.startLine));
+                        this.parseLine(location.physicalLocation)));
                 });
 
                 const entry = new ResultEntry(
@@ -29,6 +29,14 @@ export class ResultParser {
         });
 
         return resultEntries;
+    }
+
+    private parseLine(physicalLocation: any): number | null {
+        if (physicalLocation.regon && physicalLocation.region.startLine) {
+            return physicalLocation.region.startLine;
+        }
+
+        return null;
     }
 
     private parseLevel(level: string): EntryLevel {
