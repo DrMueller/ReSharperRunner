@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "ReSharperRunner",
   "publisher": "DrMueller2",
-  "version": "1.0.__BuildVersion__",
+  "version": "2.0.__BuildVersion__",
   "name": "ReSharper Runner",
   "description": "Runs ReSharper scan and reports the results",
   "public": true,
