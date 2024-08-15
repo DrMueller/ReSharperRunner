@@ -7,13 +7,13 @@ import { ResultParser } from './parsing/services/result-parser';
 
 async function run() {
   try {
-    const solutionPath: string | undefined = tl.getInput('solutionPath', true);
-    const thresholdForFailure = tl.getInput('thresholdForFailure', true);
-    let additionalArguments = tl.getInput('additionalArguments', false);
+    // const solutionPath: string | undefined = tl.getInput('solutionPath', true);
+    // const thresholdForFailure = tl.getInput('thresholdForFailure', true);
+    // let additionalArguments = tl.getInput('additionalArguments', false);
 
-    // const solutionPath = '"C:\\MyGit\\Personal\\CertificatesRecognizer\\Mmu.CertificateRecognizer.sln"';
-    // const thresholdForFailure = 'warning';
-    // let additionalArguments = '';
+    const solutionPath = '"C:\\MyGit\\Kunden\\Modan\\Feldkalender2\\Feldkalender2.sln"';
+    const thresholdForFailure = 'warning';
+    let additionalArguments = '';
 
     tl.debug(`solutionPath: ${solutionPath}`);
     tl.debug(`thresholdForFailure: ${thresholdForFailure}`);
@@ -33,8 +33,12 @@ async function run() {
     tl.debug(`resultEntries: ${resultEntries.length}`);
 
     const doFailTask = new AnalysisLogger().logErrors(resultEntries, minimumFailLevel);
+    tl.debug(`doFailTask: ${doFailTask}`);
+
     if (doFailTask) {
-      tl.setResult(tl.TaskResult.Failed, "Errors found");
+      tl.setResult(tl.TaskResult.Failed, 'Errors found');
+    } else {
+      tl.setResult(tl.TaskResult.Succeeded, 'Everything is awesome');
     }
   }
   catch (err: any) {

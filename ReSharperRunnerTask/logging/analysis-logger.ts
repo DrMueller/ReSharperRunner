@@ -33,7 +33,6 @@ export class AnalysisLogger {
         });
 
         return doFailTask;
-
     }
 
     private logEntries(resultEntries: ResultEntry[], logLevel: EntryLevel): boolean {
@@ -44,14 +43,14 @@ export class AnalysisLogger {
             foundEntries.forEach(entry => {
                 entry.locations.forEach(location => {
                     const message = `Type:${logLevel};file:${location.uri};line:${location.startLineDescription};message:${entry.message}`;
-
+                    tl.debug(message);
                     if (logLevel == EntryLevel.Information) {
-                        console.info(message);
+                        tl.warning(message);
                     }
                     else if (logLevel == EntryLevel.Warning) {
-                        console.warn(message);
+                        tl.warning(message);
                     } else if (EntryLevel.Error) {
-                        console.error(message);
+                        tl.error(message);
                     }
                 });
             });
