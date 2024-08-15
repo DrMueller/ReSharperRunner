@@ -19,7 +19,8 @@ export class AnalysisRunner {
             fs.unlinkSync(outputFile);
         }
 
-        await exec(command, {});
+        // Maxbuffer seems required on certain machines, see https://stackoverflow.com/questions/23429499/stdout-buffer-issue-using-node-child-process
+        await exec(command, {maxBuffer: 1024 * 500});
 
         if (!fs.existsSync(outputFile)) {
             return new AnalysisResult(null);
