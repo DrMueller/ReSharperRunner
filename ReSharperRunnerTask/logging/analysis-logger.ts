@@ -18,7 +18,7 @@ export class AnalysisLogger {
             levelsToCheck = [EntryLevel.Error, EntryLevel.Warning];
         }
 
-        if (minimumFailLevel == FailTreshholdLevel.Warning) {
+        if (minimumFailLevel == FailTreshholdLevel.Information) {
             levelsToCheck = [EntryLevel.Error, EntryLevel.Warning, EntryLevel.Information];
         }
 
