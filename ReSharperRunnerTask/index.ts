@@ -7,13 +7,13 @@ import { ResultParser } from './parsing/services/result-parser';
 
 async function run() {
   try {
-    // const solutionPath: string | undefined = tl.getInput('solutionPath', true);
-    // const thresholdForFailure = tl.getInput('thresholdForFailure', true);
-    // let additionalArguments = tl.getInput('additionalArguments', false);
+    const solutionPath: string | undefined = tl.getInput('solutionPath', true);
+    const thresholdForFailure = tl.getInput('thresholdForFailure', true);
+    let additionalArguments = tl.getInput('additionalArguments', false);
 
-    const solutionPath = '"C:\\MyGit\\Kunden\\Modan\\Feldkalender2\\Feldkalender2.sln"';
-    const thresholdForFailure = 'warning';
-    let additionalArguments = '';
+    // const solutionPath = '"C:\\MyGit\\Personal\\IdentityProvider\\IdentityProvider.Backend"';
+    // const thresholdForFailure = 'warning';
+    // let additionalArguments = '';
 
     tl.debug(`solutionPath: ${solutionPath}`);
     tl.debug(`thresholdForFailure: ${thresholdForFailure}`);
