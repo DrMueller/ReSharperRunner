@@ -8,18 +8,18 @@ export class AnalysisLogger {
         resultEntries: ResultEntry[],
         minimumFailLevel: FailTreshholdLevel): boolean {
 
-        let levelsToCheck = [
-            EntryLevel.Information,
-            EntryLevel.Warning,
-            EntryLevel.Error
-        ];
+        let levelsToCheck: EntryLevel[] = [];
 
-        if (minimumFailLevel !== FailTreshholdLevel.Information) {
-            levelsToCheck = levelsToCheck.filter(f => f !== EntryLevel.Information);
+        if (minimumFailLevel == FailTreshholdLevel.Error) {
+            levelsToCheck = [EntryLevel.Error];
         }
 
-        if (minimumFailLevel !== FailTreshholdLevel.Warning) {
-            levelsToCheck = levelsToCheck.filter(f => f !== EntryLevel.Warning);
+        if (minimumFailLevel == FailTreshholdLevel.Warning) {
+            levelsToCheck = [EntryLevel.Error, EntryLevel.Warning];
+        }
+
+        if (minimumFailLevel == FailTreshholdLevel.Warning) {
+            levelsToCheck = [EntryLevel.Error, EntryLevel.Warning, EntryLevel.Information];
         }
 
         tl.debug(`checking for levels: ${levelsToCheck.join(', ')}`);
