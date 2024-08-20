@@ -30,7 +30,7 @@
       "name": "thresholdForFailure",
       "type": "pickList",
       "label": "Treshhold (including the defined value) for failure",
-      "defaultValue": "Information",
+      "defaultValue": "Warning",
       "required": true,
       "helpMarkDown": "Treshhold (including the defined value) for failure.",
       "options": {
