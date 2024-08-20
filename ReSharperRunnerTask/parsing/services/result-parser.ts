@@ -44,8 +44,6 @@ export class ResultParser {
         switch (level.toLowerCase()) {
             case "note":
                 return EntryLevel.Note;
-            case "information":
-                return EntryLevel.Note;
             case "warning":
                 return EntryLevel.Warning;
             case "error":
