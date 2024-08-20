@@ -18,8 +18,8 @@ export class AnalysisLogger {
             levelsToCheck = [EntryLevel.Error, EntryLevel.Warning];
         }
 
-        if (minimumFailLevel == FailTreshholdLevel.Information) {
-            levelsToCheck = [EntryLevel.Error, EntryLevel.Warning, EntryLevel.Information];
+        if (minimumFailLevel == FailTreshholdLevel.Note) {
+            levelsToCheck = [EntryLevel.Error, EntryLevel.Warning, EntryLevel.Note];
         }
 
         tl.debug(`checking for levels: ${levelsToCheck.join(', ')}`);
@@ -44,7 +44,7 @@ export class AnalysisLogger {
                 entry.locations.forEach(location => {
                     const message = `Type:${logLevel};file:${location.uri};line:${location.startLineDescription};message:${entry.message}`;
                     tl.debug(message);
-                    if (logLevel == EntryLevel.Information) {
+                    if (logLevel == EntryLevel.Note) {
                         tl.warning(message);
                     }
                     else if (logLevel == EntryLevel.Warning) {

@@ -11,10 +11,6 @@ async function run() {
     const thresholdForFailure = tl.getInput('thresholdForFailure', true);
     let additionalArguments = tl.getInput('additionalArguments', false);
 
-    // const solutionPath = '"C:\\MyGit\\Personal\\IdentityProvider\\IdentityProvider.Backend"';
-    // const thresholdForFailure = 'warning';
-    // let additionalArguments = '';
-
     tl.debug(`solutionPath: ${solutionPath}`);
     tl.debug(`thresholdForFailure: ${thresholdForFailure}`);
     tl.debug(`additionalArguments: ${additionalArguments}`);
@@ -48,7 +44,7 @@ async function run() {
   function parseFailLevel(level: string): FailTreshholdLevel {
     switch (level.toLowerCase()) {
       case "information":
-        return FailTreshholdLevel.Information;
+        return FailTreshholdLevel.not;
       case "warning":
         return FailTreshholdLevel.Warning;
       case "error":

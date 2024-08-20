@@ -45,7 +45,7 @@ export class ResultParser {
             case "note":
                 return EntryLevel.Note;
             case "information":
-                return EntryLevel.Information;
+                return EntryLevel.Note;
             case "warning":
                 return EntryLevel.Warning;
             case "error":

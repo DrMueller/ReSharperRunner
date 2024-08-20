@@ -34,7 +34,7 @@
       "required": true,
       "helpMarkDown": "Treshhold (including the defined value) for failure.",
       "options": {
-        "information": "Information",
+        "note": "Note",
         "warning": "Warning",
         "error": "Error"
       }
