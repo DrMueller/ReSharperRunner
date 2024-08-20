@@ -44,7 +44,7 @@ async function run() {
   function parseFailLevel(level: string): FailTreshholdLevel {
     switch (level.toLowerCase()) {
       case "information":
-        return FailTreshholdLevel.not;
+        return FailTreshholdLevel.Note;
       case "warning":
         return FailTreshholdLevel.Warning;
       case "error":
