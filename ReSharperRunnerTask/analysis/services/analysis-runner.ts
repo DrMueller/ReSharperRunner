@@ -1,44 +1,37 @@
-import { spawn } from 'child_process';
+const { exec } = require('child-process-async');
 import { AnalysisResult } from '../models/analysis-result';
-import { existsSync, unlinkSync, readFileSync } from 'fs';
-import tl = require('azure-pipelines-task-lib/task');
+import { readFileSync } from 'fs';
+const fs = require('fs');
 
 export class AnalysisRunner {
     public async runAnalysisAsync(
         solutionPath: string,
         additionalArguments: string | undefined): Promise<AnalysisResult> {
+        const outputFile = 'output.json';
+        let command = `jb inspectcode ${solutionPath} -o=${outputFile}`;
 
-        return new Promise((resolve) => {
-            const outputFile = 'output.json';
+        if (additionalArguments) {
+            command += ` ${additionalArguments}`;
+        }
 
-            // Wenn die Datei bereits existiert, löschen
-            if (existsSync(outputFile)) {
-                unlinkSync(outputFile);
-            }
+        if (fs.existsSync(outputFile)) {
+            fs.unlinkSync(outputFile);
+        }
 
-            const argsArray = ['inspectcode', solutionPath, `-o=${outputFile}`, additionalArguments ?? ''];
-            const process = spawn('jb', argsArray);
-            tl.debug(argsArray.join(', '));
+        // Maxbuffer seems required on certain machines, see https://stackoverflow.com/questions/23429499/stdout-buffer-issue-using-node-child-process
+        const { stdout, stderr } = await exec(command, { maxBuffer: 1024 * 500 });
 
-            process.stdout.on('data', (data) => {
-                console.log(`${data}`);
-            });
+        console.log('Standard Output:', stdout);
 
-            process.stderr.on('data', (data) => {
-                console.error(`${data}`);
-            });
+        if (stderr) {
+            console.error('Error Output:', stderr);
+        }
+        
+        if (!fs.existsSync(outputFile)) {
+            return new AnalysisResult(null);
+        }
 
-            process.on('close', (exitCode) => {
-                if (exitCode !== 0) {
-                    console.error(`Process exited with code ${exitCode}`);
-                    resolve(new AnalysisResult(null));
-                } else if (!existsSync(outputFile)) {
-                    resolve(new AnalysisResult(null));
-                } else {
-                    const jsonData = readFileSync(outputFile, 'utf-8');
-                    resolve(new AnalysisResult(jsonData));
-                }
-            });
-        });
+        const jsonData = readFileSync(outputFile, 'utf-8');
+        return new AnalysisResult(jsonData);
     }
 }
