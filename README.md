@@ -9,6 +9,16 @@ Runs the [ReSharper InspectCode command line tool](https://www.jetbrains.com/hel
 - The task expects the command line tool to be installed, please make sure this is the case.
 - The task expects the newly added output format SARIF, therefore this only works with ReSharper 2024 and forward
 
+To install the ReSharper command line tool, use a task like this:
+
+```yaml
+- task: petersendev.dotnet-global-tool-installer.DotnetGlobalToolInstaller.DotnetGlobalToolInstaller@0
+  displayName: '.NET Core Global Tool'
+  inputs:
+    name: JetBrains.ReSharper.GlobalTools
+    versionSpec: '2024.2'
+```
+
 ## Configuration
 
 ### Solution path
