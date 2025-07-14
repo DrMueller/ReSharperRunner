@@ -18,8 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "azure-pipelines-task-lib": "^4.15.0",
-    "child-process-async": "^1.0.1",
-    "resharperunnertask": "file:"
+    "child-process-async": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
