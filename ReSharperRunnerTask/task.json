@@ -11,7 +11,7 @@
   ],
   "demands": [],
   "version": {
-    "Major": "2",
+    "Major": "3",
     "Minor": "0",
     "Patch": "__BuildVersion__"
   },
@@ -49,7 +49,7 @@
     }
   ],
   "execution": {
-    "Node": {
+    "Node20": {
       "target": "dist/index.js",
       "argumentFormat": ""
     }
