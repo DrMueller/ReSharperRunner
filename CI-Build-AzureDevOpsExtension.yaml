@@ -51,6 +51,6 @@ jobs:
       - task: ms-devlabs.vsts-developer-tools-build-tasks.publish-extension-build-task.PublishAzureDevOpsExtension@3
         displayName: "Publish Extension"
         inputs:
-          connectedServiceNameAzureRM: 'Pay-As-You-Go (91660754-3529-407f-8458-92759935fbf7)'
+          connectedServiceName: 'Marketplace3'
           updateTasksVersion: false
           updateTasksId: true
